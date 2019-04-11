@@ -18,108 +18,131 @@ p{
  clear: both;
  display: block;
 }
-.step{
-  padding: 3px;
-  background-color: orange;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: white;
-}
-.boxContainer{
-  width: 960px;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.boxContents{
-  position: relative;
-  width: 300px;
-  float: left;
-  padding: 10px;
-  border :0.5px solid #eee;
-  margin-right: 30px;
-}
-.boxContents:last-child{
-  margin-right: 0px;
-}
-.imageBox{
-  /*width: 100%;*/
-  height: 150px;
-  background-image: url(img/flow01.png);
-  background-size: cover;
-  background-position: bottom;
-}
-.imageBox01{
-  background-image: url(img/flow02.png);
-}
-.imageBox02{
-  background-image: url(img/flow03.png);
-}
-.imageBox img{
-  /*width: 100%;*/
-}
-.titleArea{
-  font-size: 17px;
-  margin-top: 12px;
-  margin-bottom: 7px;
-}
-.textArea{
-  line-height: 1.5;
-}
 
-@media screen and (max-width:1000px){
-  .boxContainer{
-  width: 94%;
+.navContainer{
+  background: #EC715F;
+  height: 70px;
+}
+.logoArea{
+  width: 1024px;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
-.boxContents{
-  width: 32%;
+.logoImg{
+  height: 70px;
   float: left;
-  margin-right: 2%;
 }
+.naviArea{
+  list-style: none;
+  float: right;
+  line-height: 70px;
 }
-@media screen and (max-width:804px){
-  .titleArea{
+.naviArea li{
+  display: inline-block;
   font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  color: #FAFAFA;
+  margin :0 30px;
 }
-.textArea{
-  line-height: 1.3;
-  font-size: 13px;
+
+.imgWrap{
+  background: url(img/mv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  text-align: center;
 }
+.wrapTitle{
+  padding-top: 200px;
+  padding-bottom: 10px;
+  font-size:64px;
+  color: #FAFAFA;
 }
-@media screen and (max-width:767px){
-  .boxContents{
-  width: 100%;
-  float: none;
-  margin-right: 0;
+.WrapSubTitle{
+  font-size: 20px;
+  color: #FAFAFA;
 }
-  .boxContainer{
-  width: 90%;
+.portfolioTxt{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size:16px;
+  color: #000;
+}
+.portTitle{
+  font-size: 32px;
+  color:#000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+}
+.Underline{
+  border-bottom: 3px solid #EC715F;
+  width: 70px;
+  display: inline-block;
+}
+.Works{
+  padding-bottom: 80px;
+}
+.work00{
+  width: 300px;
+  height: 300px;
+  background: url(img/sketch.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  margin-bottom: 10px;
+}
+.work01{
+  margin-right: 10px;
+}
+.work02{
+  background: url(img/websuku.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-right: 10px;
+}
+.work03{
+  background: url(img/write.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.work04{
+  background: url(img/webcamp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-right: 10px;
+}
+.work05{
+  background: url(img/talk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.work06{
+  background: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.portfolioContainer{
+  width: 920px;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  text-align: center;
 }
-.boxContents{
-  margin-bottom: 20px;
+.FeatureWrap{
+  background: #fff;
 }
-.boxContents:last-child{
-  margin-bottom: 0px;
+.FeatureTxt{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size:16px;
+  color: #000;
 }
+.FeatureTitle{
+  font-size: 32px;
+  color:#000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
