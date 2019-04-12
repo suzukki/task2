@@ -124,10 +124,47 @@ p{
   background-repeat: no-repeat;
   background-position: top;
 }
+.portfolioWrap{
+  background: #ECEFF1;
+}
 .portfolioContainer{
   width: 920px;
   margin: 0 auto;
   text-align: center;
+}
+.FeatureContainer{
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.FeatureBox{
+  float: left;
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+.FeatureBox:last-child{
+  margin-right: 0px;
+}
+.far{
+  font-size: 60px;
+}
+.fas{
+  font-size: 60px;
+}
+.fal{
+  font-size: 60px;
+}
+.FeatureBoxTitle{
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+.FeatureBoxTxt{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
 .FeatureWrap{
   background: #fff;
@@ -143,6 +180,54 @@ p{
   color:#000000;
   padding-top: 90px;
   padding-bottom: 8px;
+}
+.profileWrap{
+  background: #ECEFF1;
+}
+.profileContainer{
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.profileTxt{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size:16px;
+  color: #000;
+}
+.profileTitle{
+  font-size: 32px;
+  color:#000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+}
+.portforioImage{
+  width: 250px;
+  margin: 0 auto;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+.title01{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.text01{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.rightArea{
+  float: right;
+  width: 50%;
+}
+.leftArea{
+  float: left;
+  width: 50%;
 }
 
 
