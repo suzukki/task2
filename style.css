@@ -229,5 +229,271 @@ p{
   float: left;
   width: 50%;
 }
+.contactWrap{
+  background: #fff;
+}
+.contactContainer{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.contactTxt{
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-size:16px;
+  color: #000;
+}
+.contactTitle{
+  font-size: 32px;
+  color:#000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+}
+.contactLeft{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.contactRight{
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+.coTit{
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+.coTxt{
+  margin-bottom:20px;
+  font-weight: bold;
+  text-align: left;
+}
+.fab{
+  font-size: 50px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.fab:last-child{
+  margin-right: 0;
+}
+.contactLeft01{
+  width: 200px;
+  margin: 0 auto;
+}
+.contactRight01{
+  width: 200px;
+  margin: 0 auto;
+}
+footer{
+  height: 60px;
+  background-color: #EC715F;
+  text-align: center;
+}
+footer p{
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}
+@media screen and (max-width:1023px){
+  .profileContainer{
+  width: 94%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.contactContainer{
+  width: 94%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.portfolioContainer{
+  width: 94%;
+  margin: 0 auto;
+  text-align: center;
+}
+.FeatureContainer{
+  width: 94%;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.logoArea{
+  width: 100%;
+  margin: 0 auto;
+}
+.work00{
+  width: 32%;
+}
+.FeatureBox{
+  width: 32%;
+}
+}
+@media screen and (max-width:767px){
+  .contactContainer{
+  width: 90%;
+}
+.portfolioContainer{
+  width: 90%;
+}
+.FeatureContainer{
+  width: 90%;
+}
+.work00{
+  width: 100%;
+  float: none;
+}
+.FeatureBox{
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+.pcOnly{
+  display: none;
+}
+.wrapTitle{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.wrapSubTitle{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.naviArea{
+  display: none;
+}
+.leftArea{
+  float: none;
+  width: 100%;
+}
+.rightArea{
+  float: none;
+  width: 100%;
+}
+.contactLeft{
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+.contactRight{
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+.contactLeft01{
+  width: 100%;
+}
+.contactRight01{
+  width: 100%;
+}
+.coTit{
+  text-align: center;
+}
+.coTxt{
+  text-align: center;
+}
+.work00{
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 250px;
+}
+.works{
+  text-align: center;
+}
+.imgWrap{
+  background: url(img/code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+.portforioImage{
+  margin-bottom: 20px;
+}
+.title01{
+  text-align: center;
+}
+.text01{
+  font-size: 15px;
+}
+.navContainer{
+  height: 50px;
+}
+.logoImg{
+  height: 50px;
+}
+.Toggle{
+  display: block;
+}
+.far{
+  font-size: 50px;
+}
+.fas{
+  font-size: 50px;
+}
+.Toggle {
+    display: block;
+    position: absolute;    /* bodyに対しての絶対位置指定 */
+    right: 13px;
+    top: 4px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    z-index: 3;
+    border: 1px solid #fff;
+}
+ 
+.Toggle span {
+    display: block;
+    position: absolute;
+    width: 30px;
+    border-bottom: solid 2px #fff;
+    -webkit-transition: .35s ease-in-out; /*変化の速度を指定*/
+    -moz-transition: .35s ease-in-out;    /*変化の速度を指定*/
+    transition: .35s ease-in-out;     /*変化の速度を指定*/
+    left: 5px;
+}
+ 
+.Toggle span:nth-child(1) {
+    top: 9px;
+}
+ 
+.Toggle span:nth-child(2) {
+    top: 18px;
+}
+ 
+.Toggle span:nth-child(3) {
+    top: 27px;
+}
+ 
+/* 最初のspanをマイナス45度に */
+.Toggle.active span:nth-child(1) {
+    top: 18px;
+    left: 6px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+ 
+/* 2番目と3番目のspanを45度に */
+.Toggle.active span:nth-child(2),
+.Toggle.active span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+}
+@media screen and (min-width:767px){
+  .Toggle{
+  display: none;
+}
 
-
+}
